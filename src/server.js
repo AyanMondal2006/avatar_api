@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://io-chat-eight.vercel.app"
+    "https://io-chat-frontend.vercel.app"
   ]
 }));
 
@@ -22,7 +22,7 @@ app.use("/api/avatars", avatarRoutes);
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "Streamify Avatar API is running!",
+    message: "io.chat Avatar API is running!",
   });
 });
 
