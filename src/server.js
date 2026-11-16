@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://avatar-api-gold.vercel.app/"
+    "https://io-chat-eight.vercel.app"
   ]
 }));
 
